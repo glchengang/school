@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.yowob.school</groupId>
+    <artifactId>school-web</artifactId>
+    <packaging>war</packaging>
+    <version>1.0</version>
+    <name>SCHOOL APP WEB</name>
+    <url>http://www.yowob.cn</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 在复制时,如有同名资源文件, 则覆盖 -->
+        <maven.resources.overwrite>true</maven.resources.overwrite>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <build>
+        <!--
+        默认生所jar带版本号：school-web-1.0.jar，
+        以下设置可以生成去掉了版本号的名称：school-web.jar
+        -->
+        <finalName>school-web</finalName>
+    </build>
+
+
+</project>
